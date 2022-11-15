@@ -1,0 +1,95 @@
+/* comentarios en CSS */
+/* Selectores */
+
+/* selector por etiqueta*/
+/* a todos los elementos <p> les asigna las propiedades definidas */
+body{
+    background-image: url(../Clase2/imagenes/mesa.jpg);
+    background-attachment: fixed;
+}
+p{
+    color: green;
+    background-color: #3498db;
+}
+button{
+    background-color: rgb(255, 192, 203);
+     margin-right: 80px; 
+    /* margin: 80px; */
+}
+h1{
+    background-color: rgba(100,50,88,0.5);
+    width: 400px;/* unidad fija*/
+    height:50vh;/*propiedad del alto de un elemento*/
+   display: inline-block;/* cambia el comportamiento del elemento de bloque a linea */
+}
+
+a{
+    background-color: tomato;
+    color: white;
+    width: 100px;
+    /* padding-bottom:10px ; */
+    padding: 10px;
+    border:black 2px solid ;/*3 valores : el color el grosor y el tipo de borde*/
+    border-radius: 20px;/* redondear los bordes*/
+    display: block;
+}
+/* selectores de clase */
+/* .nombreDeLaClase */
+
+.textoRojo{
+    color: red;
+}
+
+.letras{
+    color: blue;
+}
+
+/* selectores por id */
+
+#unTexto{
+    background-color: orange;
+}
+
+img{
+    /*width:40px ;/* ancho de un elemento*/
+    height: 100vh;
+}
+
+ul{
+    width: 800px;
+    height: 100px;
+    background-color: red;
+}
+
+li{
+    width: 50%;/*400px*/
+    height: 25%;
+    background-color: blueviolet;
+}
+div{
+    width: 300px;
+    height: 200px;
+    background-image: url(../Clase2/imagenes/mesa.jpg);/* colocar una imagen de fondo*/
+}
+
+
+/* le va a colocar a los elementos todas las propiedades que le asigne */
+/* mas general por etiqueta , el por clase , el de id */
+/* 
+color : propiedad de color tipografico  
+*/
+/* definir colores:
+    ROJO - VERDE - AZUL 
+ hexadecimal # A-F 0-9 
+ rgb (red, green, blue) : 0 al 255
+ - rgba()transparencia  (0 al 1) 
+ colores predefinidos por CSS
+
+*/
+/* UNIDADES
+
+porcentaje (%) toma com 100% la medida del padre para saber cuanto va a valer el hijo
+*/
+/* 25vh view height -> 25% del alto de la pantalla 
+    50vw view width -> 50% del ancho de pantalla
+*/
