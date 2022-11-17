@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=BhuTuka+Expanded+One&family=Raleway:wght@100;500;600;900&display=swap');
+
+*{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+/* este selector aplica las propiedades a todo elemento del HTML*/
+body{
+    background-color: lightpink;
+    /* font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; */
+}
+/* aplica a los elementos del body pero no a todos ellos */
+
+/* unidades : 
+    1rem , 1em -> 16px
+px - % - vh vw */
+
+/* no hacer tipografias menores a los 14px*/
+
+h1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 4em;
+    font-weight: 100;
+    text-decoration: overline;
+    text-shadow: 
+            2px 2px gray,
+            8px 8px 5px white;
+}
+
+h2{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 900;
+}
+
+button{
+    font-family: 'BhuTuka Expanded One', cursive;
+    padding: 20px;
+    box-shadow: 
+            inset -5px -5px 5px #F90,
+            5px 5px blue,
+            20px 8px 10px red;
+
+    /* sombras de la "caja" de los elementos :
+    (externas al elemento) + hacia la derecha ,hacia abajo;    -   hacia la izquierda ,hacia arriba
+    (interna -inset ) - hacia la derecha ,hacia abajo;    +   hacia la izquierda ,hacia arriba*/
+}
+
+.subtitulo{
+    font-size: 1em;
+    font-size: 600;
+    text-transform: uppercase;/* lowercase - capitalize */
+    text-align: center;
+    width: 50%;
+    background-color: green;
+}
+p{
+    text-align:justify;
+}
+a{
+    text-decoration: none;/* sacar el subrayado*/
+}
+ul{
+     list-style-type:circle; 
+    /* list-style-image: url(../Clase2/imagenes/mesa.jpg); */
+}
+ol{
+    list-style-type: upper-roman;
+}
