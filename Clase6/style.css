@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=BhuTuka+Expanded+One&family=Raleway:wght@100;500;600;900&display=swap');
+*{
+    font-family: 'Raleway', sans-serif;
+
+}
+
+body{
+    background-color: lightyellow;
+    margin: 0px;
+    
+   
+}
+
+/*--------HOJA--------*/
+/*------- INDEX-------*/
+/*--------------------*/
+.navegacion{
+    background-color:lightskyblue;
+    padding: 10px;
+    
+}
+.menu{
+    list-style-type: none;
+    margin: 0px;
+}
+.boton{
+    padding: 8px;
+    background-color:#052d46 ;
+    width: 80px;
+    border-radius: 8px;
+    color: whitesmoke;
+
+}
+
+.tarjeta{
+    border: 2px solid #052d46;
+    border-radius: 10px;
+    width: 250px;
+    background-color: lightskyblue;
+    padding-bottom: 10px;
+}
+.tarjeta>img{
+    width: 100%;
+    border-radius: 8px 8px 0px 0px;
+    height: fit-content;
+}
+
+
+.pie-de-pagina{
+    background-color: #052d46;
+    height: 200px;
+    color: beige;
+}
+
+/*--------HOJA--------*/
+/*-------FORMULARIO---*/
+/*--------------------*/
