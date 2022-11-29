@@ -18,11 +18,14 @@ body{
     padding: 10px;
     position: sticky;
     top: 0px;
-    
+
 }
 .menu{
     list-style-type: none;
     margin: 0px;
+    display: flex;
+    justify-content: flex-end;
+    gap:20px
 }
 .boton{
     padding: 8px;
@@ -37,7 +40,7 @@ h1{
     text-align: center;
 }
 
-.contenedor-tarjetas-recientes{
+.contenedor-tarjetas-recientes,.contenedor-tarjetas-mas-vendidos{
        
     display: flex;
     flex-direction: row;/* si se comporta en forma de fila o columna*/
