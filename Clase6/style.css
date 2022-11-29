@@ -35,6 +35,10 @@ body{
     color: whitesmoke;
 
 }
+.link-boton{
+    text-decoration: none;
+    color: whitesmoke;
+}
 
 h1{
     text-align: center;
