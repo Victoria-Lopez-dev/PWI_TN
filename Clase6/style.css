@@ -7,7 +7,6 @@
 body{
     background-color: lightyellow;
     margin: 0px;
-    
    
 }
 
@@ -17,6 +16,8 @@ body{
 .navegacion{
     background-color:lightskyblue;
     padding: 10px;
+    position: sticky;
+    top: 0px;
     
 }
 .menu{
@@ -32,17 +33,44 @@ body{
 
 }
 
+h1{
+    text-align: center;
+}
+
+.contenedor-tarjetas-recientes{
+       
+    display: flex;
+    flex-direction: row;/* si se comporta en forma de fila o columna*/
+
+    justify-content:space-between ;/* si es row: le puedo indicar como ubicarse de manera horizontal ; si es column: de manera vertical */
+    align-items: center;/* si es row: alinea a los hijos en sentido vertical si es column : de manera horizontal*/
+
+    flex-wrap: wrap;/* les defino para indicarle que respete (wrap) o no (nowrap) el ancho definido de los elementos hijos*/
+    gap: 20px;/* distancia entre los elementos hijos */
+    margin: 10px 40px;
+}
+
+
 .tarjeta{
     border: 2px solid #052d46;
     border-radius: 10px;
     width: 250px;
     background-color: lightskyblue;
     padding-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
 }
+
 .tarjeta>img{
     width: 100%;
     border-radius: 8px 8px 0px 0px;
     height: fit-content;
+}
+
+.texto-tarjeta, .boton{
+    text-align: center;
 }
 
 
